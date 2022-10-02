@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Thanos Trifonis</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div><a href="#" class="nav-logo">Thanos</a></div>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home-container bd-grid">
+          <h1 class="home-title"><span>Welcome</span><br />kind visitor!</h1>
+          <div class="home-scroll">
+            <a href="#about" class="home-scroll-link"
+              ><i class="bx bx-up-arrow-alt">Scroll down</i></a
+            >
+          </div>
+          <img
+            src="assets/images/skills.png"
+            alt="arrow down"
+            class="home-img"
+          />
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container bd-grid">
+          <div class="about-img">
+            <img src="assets/images/thanos.jpg" alt="profile picture" />
+          </div>
+          <div>
+            <h2 class="about-subtitle">My name is Thanos Trifonis</h2>
+            <span class="about-prof">Software Engineer</span>
+            <p class="about-text">
+              I'm a computer science student who loves utilizing programming to
+              solve problems. Currently i practice web development.
+            </p>
+            <p class="about-text">
+              This is my 3<sup>rd</sup> year in Computer Science department at
+              Athens University of Economics and Business.
+            </p>
+            <div class="about-social">
+              <a
+                href="https://www.linkedin.com/in/thanos-trifonis/"
+                class="about-social-icon"
+                ><i class="bx bxl-linkedin bx-lg" style="color: #0072b1"></i></a
+              ><a
+                href="https://github.com/TrifonisAth"
+                class="about-social-icon"
+                ><i class="bx bxl-github bx-lg" style="color: #333333"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container bd-grid">
+          <div class="project-img">
+            <img src="assets/images/todo.png" alt="" />
+            <div class="project-link">
+              <a
+                href="https://trifonisath.github.io/ToDo_List/"
+                class="project-link-name"
+                >ToDo app live demo</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img src="assets/images/tic.png" alt="project image" />
+            <div class="project-link">
+              <a
+                href="https://trifonisath.github.io/TicTacToe/"
+                class="project-link-name"
+                >Tic Tac Toe live demo</a
+              >
+            </div>
+          </div>
+          <div class="project-img">
+            <img src="assets/images/aueb.jpg" alt="project image" />
+            <div class="project-link">
+              <a
+                href="https://github.com/TrifonisAth/University_Projects"
+                class="project-link-name"
+                >University Projects Repo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container bd-grid">
+          <div class="skills-box">
+            <h3 class="skills-subtitle">Languages and Technologies</h3>
+            <span class="skills-name">JavaScript</span
+            ><span class="skills-name">HTML</span
+            ><span class="skills-name">CSS</span
+            ><span class="skills-name">Python</span
+            ><span class="skills-name">Java</span
+            ><span class="skills-name">BootStrap</span
+            ><span class="skills-name">PostgreSQL</span
+            ><span class="skills-name">Sass</span>
+            <div class="skills-img">
+              <img src="assets/images/mobile.png" alt="picture" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container bd-grid">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Address</h3>
+            <span class="contact-text">Athens, Greece</span>
+            <h3 class="contact-subtitle">Email</h3>
+            <span class="contact-text">ath.trifonis@gmail.com</span>
+          </div>
+          <form action="" class="contact-form">
+            <div class="contact-inputs">
+              <input type="text" class="contact-input" placeholder="Name" />
+              <input
+                type="mail"
+                class="contact-input"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input type="submit" class="contact-button" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer-container bd-grid">
+        <div class="footer-data">
+          <h2 class="footer-title">Thanos Trifonis</h2>
+          <p class="footer-text">
+            I'm Thanos Trifonis and this is my portfolio
+          </p>
+        </div>
+        <div class="footer-data">
+          <h2 class="footer-title">Explore</h2>
+          <ul>
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Me</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#skills" class="footer-link">Skilss</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
