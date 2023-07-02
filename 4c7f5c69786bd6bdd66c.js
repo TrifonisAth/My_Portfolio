@@ -56,22 +56,22 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".home-title", {});
-sr.reveal(".home-scroll", { delay: 400 });
-sr.reveal(".home-img", { origin: "right", delay: 600 });
+sr.reveal(".home-scroll", { delay: 100 });
+sr.reveal(".home-img", { origin: "right", delay: 300 });
 
-sr.reveal(".about-img", { origin: "left", delay: 400 });
-sr.reveal(".about-subtitle", { delay: 300 });
-sr.reveal(".about-prof", { delay: 400 });
-sr.reveal(".about-text", { delay: 500 });
-sr.reveal(".about-social-icon", { delay: 600, interval: 300 });
+sr.reveal(".about-img", { origin: "left", delay: 100 });
+sr.reveal(".about-subtitle", { delay: 200 });
+sr.reveal(".about-prof", { delay: 200 });
+sr.reveal(".about-text", { delay: 150 });
+sr.reveal(".about-social-icon", { delay: 300, interval: 250 });
 
-sr.reveal(".project-img", { delay: 200, interval: 500 });
+sr.reveal(".project-img", { delay: 100, interval: 100 });
 
 sr.reveal(".skills-subtitle", {});
-sr.reveal(".skills-name", { delay: 150, distance: "20px", interval: 150 });
-sr.reveal(".skills-img", { origin: "left", delay: 500 });
+sr.reveal(".skills-name", { delay: 50, distance: "20px", interval: 20 });
+sr.reveal(".skills-img", { origin: "left", delay: 200 });
 
 sr.reveal(".contact-subtitle", {});
-sr.reveal(".contact-text", { interval: 300 });
-sr.reveal(".contact-input", { delay: 400 });
-sr.reveal(".contact-button", { interval: 300 });
+sr.reveal(".contact-text", { interval: 100 });
+sr.reveal(".contact-input", { delay: 200 });
+sr.reveal(".contact-button", { interval: 200 });
